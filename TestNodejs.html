@@ -1,0 +1,32 @@
+<html>
+	<head>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin+Slab">
+	<style>
+		body {
+				font-family: 'Josefin Slab';
+				font-size: 30px;
+				color:white;
+				background-color:#5882FA;
+			}
+		table {
+				position:relative;
+				bottom:-10px;
+			}
+	</style>
+	</head>
+	<body>
+		<h1 style="text-align:center;">Form to save data to MySQL</h1>
+		<p style="text-align:center;font-weight:bold;">Enter the text and click submit.</p>
+		<form action="http://localhost:2000/requestServer" method="post" align='center'>
+			<table align="center" style="font-size:30px;">
+				<tr>
+					<td>User Name:</td> <td><input type="input" name="userName"/></td>
+				</tr>
+				<tr>
+					<td>Password :</td> <td><input type="password" name="pwd"/></td>
+				</tr>
+				<tr><td colspan="2" align="center"><input type="submit" value="submit"/></td></tr>
+			</table>
+		</form>
+	</body>
+</html>
